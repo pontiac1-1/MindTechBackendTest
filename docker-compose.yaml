@@ -1,0 +1,20 @@
+version: '3.1'
+
+services:
+  db:
+    image: mysql
+    restart: always
+    environment:
+      MYSQL_PASSWORD: mindtechappssecret
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: mindtechappsuser
+      MYSQL_DATABASE: mindtechapps
+    ports:
+      - 3306:3306
+  app:
+    build: .
+    depends_on:
+      - db
+    ports:
+      - 3000:3000
+    

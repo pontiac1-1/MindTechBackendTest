@@ -1,0 +1,5 @@
+INSERT INTO mindtechapps.artist (id, name, genre, biography, createdAt, modifiedAt, formedYear) VALUES (1, 'Tom Petty and The Heartbreakers', 'Pop-Rock', 'bio', '2021-04-15 14:48:04', '2021-04-16 11:15:30.732731', 1976);
+INSERT INTO mindtechapps.artist (id, name, genre, biography, createdAt, modifiedAt, formedYear) VALUES (2, 'Stevie Ray Vaughan ', 'Rock', 'bio', '2021-04-15 14:48:04', '2021-04-16 11:15:30.724266', 1965);
+INSERT INTO mindtechapps.artist (id, name, genre, biography, createdAt, modifiedAt, formedYear) VALUES (3, 'Toto', 'Rock', 'bio', '2021-04-15 14:48:04', '2021-04-16 11:15:30.728127', 1976);
+INSERT INTO mindtechapps.artist (id, name, genre, biography, createdAt, modifiedAt, formedYear) VALUES (4, 'Eagles', 'Rock', 'bio', '2021-04-16 13:13:40', '2021-04-16 13:13:42', 1971);
+INSERT INTO mindtechapps.artist (id, name, genre, biography, createdAt, modifiedAt, formedYear) VALUES (5, 'Lynryrd Skynyrd', 'Rock', 'bio', '2021-04-16 13:18:24', '2021-04-16 13:18:26', 1964);
